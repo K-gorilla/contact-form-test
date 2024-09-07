@@ -1,0 +1,153 @@
+.header {
+    border: 1px solid #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    width: 1520px;
+    height: 100px;
+}
+
+.header__logo {
+    font-family: "inika", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.12px;
+    text-align: center;
+    color: #8B7969;
+    text-decoration: none;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    font-family: "inika", serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: #8B7969;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 970px;
+    height: 606px;
+    top: 247px;
+    left: 273px;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    color: #8B7969;
+}
+
+.form__group-content {
+    display: flex;
+}
+
+
+.form__label--required {
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--name {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 270px;
+    gap: 50px;
+}
+
+
+.form__input--tel {
+    display: flex;
+    justify-content: flex-end;
+        width: 100px;
+        gap: 50px;
+}
+
+
+.form__input--tel input {
+    text-align: center;
+}
+
+.form__input--tel--item {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto 10px;
+    gap: 10px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 38px;
+    color: #8B7969;
+    background-color: #f4f4f4;
+}
+
+.form__input--textarea textarea {
+    height: 129px;
+    width: 618.82;
+    background-color: #f4f4f4;
+    color: #8B7969;
+}
+
+.form__input--gender {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    width: Hug (160px)px;
+    height: Hug (46px)px;
+    top: 903px;
+    left: 674px;
+    padding: 10px 40px 10px 40px;
+    gap: 10px;
+    opacity: 0px;
+    background: #82756A;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.06px;
+    color: #FFFFFF;
+    font-family: "inika", serif;
+}
+
+.form__input--gender {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.form__input--gender label {
+    font-size: 18px;
+    color: #8B7969;
+}
